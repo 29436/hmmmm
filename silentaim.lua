@@ -73,7 +73,7 @@ end)
 print('Done Silent Aim!')
 
 
--- // Unlimited Stamina + Toggle Silent Aim
+-- // Toggle Silent Aim
 UIS.InputBegan:Connect(function(Key, GPE)
     if not GPE then
         if Key.KeyCode == Enum.KeyCode.X then 
