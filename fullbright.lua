@@ -1,3 +1,5 @@
+print("fb executed")
+
 if not _G.FullBrightExecuted then
 
 	_G.FullBrightEnabled = false
